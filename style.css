@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.main-box{
+    max-width: 22rem;
+    height: 60vh;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 7px 7px 1px#333;
+    border: 1px solid #333;
+}
+
+.main-box .banner{
+    border-radius: 10px 10px 0 0;
+
+}
+
+.banner img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.banner button{
+    border: none;
+    padding: 8px 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+    color: #000;
+    font-weight: bold;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 15px;
+}
+
+.main-box h5{
+    margin-top: 17px;
+    color: hsl(0, 0%, 50%) ;
+
+}
+
+.main-box h2{
+    margin-top: 17px;
+}
+
+.main-box p{
+    color: hsl(0, 0%, 50%);
+    margin-top: 10px;
+}
+
+.main-box .profile{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    margin-top: 17px;
+}
+
+.profile img{
+    width: 30px;
+    height: 30px;
+}
+
+.profile p{
+    margin-bottom: 8px;
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+}
